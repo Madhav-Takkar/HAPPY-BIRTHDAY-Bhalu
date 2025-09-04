@@ -2,6 +2,9 @@ $(window).load(function(){
 	$('.loading').fadeOut('fast');
 	$('.container').fadeIn('fast');
 });
+$('#one_suprise').on('click', function() {
+    window.open('https://madhav-takkar.github.io/part-2-happy-birthday/', '_blank');
+});
 $('document').ready(function(){
 		var vw;
 		$(window).resize(function(){
